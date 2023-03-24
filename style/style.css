@@ -1,0 +1,751 @@
+@font-face {
+    font-family:"applefont1" ;
+    src: url(/assets/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:"applefont2" ;
+    src: url(/assets/font/SF-Pro-Display-Regular.otf);
+}
+@font-face {
+    font-family:"applefont3" ;
+    src: url(/assets/font/SF-Pro-Display-Medium.otf);
+}
+@font-face {
+    font-family:"applefont4" ;
+    src: url(/assets/font/SF-Pro-Display-Black.otf);
+}
+@font-face {
+    font-family:"applefont5" ;
+    src: url(/assets/font/SF-Pro-Display-Heavy.otf);
+}
+
+
+*{
+    padding: 0px;
+    margin:0px;
+
+
+}
+body
+{
+overflow-x: hidden;
+
+}
+
+nav
+{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 44px;
+    background-color:#444444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav ul li
+{
+    display: inline;
+    padding-left: 35px;
+    color: white;
+    font-family: "applefont1";
+    font-size: 12px;
+  
+}
+
+.list
+{
+    background-color:#444444;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 70%;
+    margin-bottom:5px;
+
+}
+.imgnav1
+{
+    height: 17px;
+    width: 17px;
+    /* background-color: aqua; */
+
+}
+.applelogo
+{
+    /* margin-top: 5px; */
+    height: 100%;
+    width: 100%;
+    padding-top: -1px;
+    fill: white;
+}
+.imgnav2
+{
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    gap:30px;
+    
+    
+}
+.search
+{
+    margin-left: 3px;
+    height: 20px;
+    width: 20px;
+    fill: white;    
+}
+ .store
+{
+    margin-left: 3px;
+    height: 30px;
+    width: 35px;
+    /* margin-left: 30px; */
+} 
+
+/* ------------------nav end---------------------- */
+
+
+.page1
+{
+    background-color: #fafafa;
+    height: 806px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content
+{
+    background-color: #fafafa;
+    height:670px;
+    width: 1100px;
+}
+.textonly
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+    background-color: #fafafa;
+    text-align: center;
+}
+.iphead
+{
+    padding-top: 21px;
+    font-size: 55px;
+    font-family: "applefont3";
+}
+.ipsub
+{
+    font-weight: 100;
+    font-size: 29px;
+    font-family: "applefont2";
+    line-height: 30px;
+}
+.pg1link
+{
+    display: flex;
+    width:300px;
+    gap: 50px;
+    margin-left: 80px;
+    margin-top: 15px;
+    font-family: "applefont2";
+    font-size: 21px;
+    color: #0066CC;
+    /* background-color: #444444; */
+}
+.arrow
+{
+    margin-top: 6px;
+    margin-left: -47px;
+    height: 16px;
+    width: 18px;
+}
+.page1img
+{
+    display: flex;
+    justify-content: center;
+    height: 440px;
+    
+    
+}
+
+
+/* -------------page2------------------------ */
+
+.page2
+{
+    background-color: #000000;
+    height: 716px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2
+{
+    background-color: #000000;
+    height:670px;
+    width: 1100px;
+}
+.textonly2
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+    background-color:black;
+    text-align: center;
+    color: #fafafa;
+}
+
+.iphead2
+{
+    padding-top: 21px;
+    font-size: 55px;
+    font-family: "applefont3";
+}
+.ipsub2
+{
+    font-weight: 100;
+    font-size: 29px;
+    font-family: "applefont2";
+    line-height: 30px;
+}
+
+
+
+.pglink2
+{
+    display: flex;
+    width:300px;
+    gap: 50px;
+    margin-left: 80px;
+    margin-top: 15px;
+    font-family: "applefont2";
+    font-size: 21px;
+    color: #0066CC;
+    /* background-color: #444444; */
+}
+.arrow
+{
+    margin-top: 6px;
+    margin-left: -47px;
+    height: 16px;
+    width: 18px;
+}
+.pageimg2
+{
+    display: flex;
+    justify-content: center;
+    height: 440px;
+    margin-top: 34px ;
+    
+    
+}
+
+/* -----------------page 3---------------------- */
+
+.page3
+{
+    /* background-color: #000000; */
+    height: 606px;
+    width: 100%;
+    display: flex;
+    background-color: #fafafa;
+    padding: 15px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.bgwatch
+{
+    background-color: #000000;
+    height:620px;
+    width:49%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .contentwatch
+{
+    background-color: #141414;
+    height:620px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: red; */
+
+/* } */ 
+
+.textonly3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+    width: 100%;
+    background-color:#141414;
+    text-align: center;
+    color: #fafafa;
+    background-color: #000000;
+
+}
+
+.watch
+{
+    font-size: 28px;
+    font-family:"applefont1";
+    font-weight: 900;
+}
+
+.logohead
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    height: 30px;
+}
+
+.watchlogo
+{
+    height: 38px;
+    width: 38px;
+}
+
+
+
+.series
+{
+    font-size: 15px;
+    padding-left: 14px;
+    padding-top: 1px;
+    font-family: "applefont4";
+    color: #d80202;
+    font-weight: 100;
+
+}
+
+.watchsub
+{
+    font-weight: 100;
+    font-size: 22px;
+    font-family: "applefont2";
+    line-height: 30px;
+    padding-top: 4px;
+}
+.watchlink
+{
+    display: flex;
+    width:400px;
+    gap: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: "applefont2";
+    font-size: 19px;
+    color: #0066CC;
+    font-weight: 900;
+
+}
+
+.arrowwatch
+{
+    margin-top: 6px;
+    margin-left: -47px;
+    height: 14px;
+    width: 18px;
+}
+
+.imgwatch
+{
+    
+    background-color: #000000;
+    height: 340px;
+    width: 480px;
+    padding-top: 48px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    /* display: flex; */
+    /* justify-content: right; */
+    /* align-items:center; */
+    /* height: 190px; */
+    /* width: 190px; */
+    /* padding-top: 280px; */
+    /* margin-right: 500px; */
+    /* background-color: aqua; */
+    /* align-items:s; */
+    /* margin-top: 180px ; */
+}
+.watchimage
+{    
+    height: 100%;
+    width: 100%;
+   
+}
+
+/* ----------------ipad---------------------------- */
+
+.bgipad
+{
+    /* background-color: #ff0303; */
+    height:400px;
+    width:49%;
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textonly4
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 330px;
+    width: 100%;
+    /* background-color:#141414; */
+    text-align: center;
+    color: #fafafa;
+    /* background-color: #00f7ff; */
+}
+
+.ipad
+{
+    /* margin-top: 10px; */
+    font-size: 43px;
+    font-family:"applefont3";
+    font-weight: 100;
+    color: black;
+}
+
+.ipadsub
+{
+    font-weight: 100;
+    font-size: 22px;
+    font-family: "applefont2";
+    line-height: 30px;
+    padding-top: 4px;
+    color: #000000;
+
+}
+
+.ipadlink
+{
+    display: flex;
+    width:400px;
+    gap: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: "applefont2";
+    font-size: 19px;
+    color: #0066CC;
+    font-weight: 500;
+
+}
+
+.imgipad
+{
+
+    margin-top: -15px;
+    background-color: transparent;
+    height: 360px;
+    width: 400px;
+    padding-top: 48px;
+    padding-left: 200px;
+    padding-right: 200px;
+    /* background-color: aqua;*/
+
+}
+
+.ipadimage
+{
+    width: 83%;
+}
+
+
+/* --------------------------page 4--------------------------------- */
+
+.page4
+{
+     /* background-color: #000000; */
+     height: 606px;
+     width: 100%;
+     display: flex;
+     background-color: #fafafa;
+     padding: 15px;
+     /* justify-content: center; */
+     /* align-items: center; */
+
+
+}
+.macbookbg
+{
+     background-color: black; 
+     height:600px;
+     width:49%;
+     display: flex;
+     /* justify-content: center; */
+     text-align: center;
+     align-items: center;
+     flex-direction: column;
+     border-right: solid #fafafa 10px;
+     
+     /* padding-left: 10px; */
+
+}
+
+
+.textonly5
+{
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+    width: 100%;
+    /* background-color:#141414; */
+    text-align: center;
+    color: black;
+    background-color:black;
+}
+
+
+.machead
+{
+    /* margin-top: 10px; */
+    font-size: 40px;
+    font-family:"applefont3";
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+
+}
+.macsub
+{
+    font-weight: 100;
+    font-size: 22px;
+    font-family: "applefont2";
+    line-height: 30px;
+    padding-top: 4px;
+    color: #ffffff;
+}
+
+.maclink
+{
+    display: flex;
+    width:400px;
+    gap: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: "applefont2";
+    font-size: 19px;
+    color: #0066CC;
+    font-weight: 500;
+
+}
+.macimg
+{
+    margin-top: -15px;
+    background-color: transparent;
+    height: 360px;
+    width: 400px;
+    padding-top: 48px;
+    padding-left: 200px;
+    padding-right: 200px;
+    /* background-color: aqua; */
+
+}
+.macimage
+{
+    padding-top: 60px;
+    width: 83%;
+}
+
+
+/* ---------------------homepod-------------------------- */
+
+
+.bghome
+{
+    background-color: black; 
+     height:600px;
+     width:49%;
+     display: flex;
+     /* justify-content: center; */
+     text-align: center;
+     align-items: center;
+     flex-direction: column;
+     padding-left: 10px;
+     border-right: solid #fafafa 25px;
+}
+
+.textonly6
+{
+
+/* margin-top: 10px; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 330px;
+width: 100%;
+/* background-color:#141414; */
+text-align: center;
+color: black;
+background-color: black
+
+}
+
+.home
+{
+     /* margin-top: 10px; */
+     font-size: 40px;
+     font-family:"applefont3";
+     font-weight: 100;
+     color: rgb(255, 255, 255);
+
+}
+
+.homesub
+{
+    font-weight: 100;
+    font-size: 22px;
+    font-family: "applefont2";
+    line-height: 30px;
+    padding-top: 4px;
+    color: #ffffff;
+
+}
+.homelink
+{
+    display: flex;
+    width:400px;
+    gap: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: "applefont2";
+    font-size: 19px;
+    color: #0066CC;
+    font-weight: 500;
+}
+.homeimg
+{
+    margin-top: -15px;
+    background-color: transparent;
+    height: 361px;
+    width: 400px;
+    padding-top: 48px;
+    padding-left: 0px;
+    padding-right: 200px;
+    /* background-color: aqua; */
+}
+.imagehome
+{
+    width: 600px;
+}
+
+/* --------------page 5--------------------- */
+
+
+.page5
+{
+  /* background-color: #000000; */
+  height: 606px;
+  width: 100%;
+  display: flex;
+  background : #fafafa;
+  padding: 15px;
+  /* justify-content: center; */
+  /* align-items: center; */
+
+}
+.fitnessbg
+{
+ background-color: #fafafa; 
+height:600px;
+width:49%;
+display: flex;
+/* justify-content: center; */
+text-align: center;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+
+.textonly7
+{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+    width: 100%;
+    background-color:#fafafa;
+    text-align: center;
+    color: black;
+   
+
+}
+
+.logofitness
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #141414; */
+    height: 30px;
+}
+.fitnesshead
+{
+    
+    font-size: 40px;
+    font-family:"applefont3";
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.fitnesssub
+{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 22px;
+    font-family: "applefont2";
+    line-height: 30px;
+    padding-top: 4px;
+    color: black;
+}
+.fitnesslink
+{
+    display: flex;
+    width:400px;
+    gap: 50px;
+    margin-left: 140px;
+    margin-top: 10px;
+    font-family: "applefont2";
+    font-size: 19px;
+    color: #0066CC;
+    font-weight: 500;
+}
+
